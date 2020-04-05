@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<Hello.h>
+#include<hello.h>
 
 int main(int argc, char **argv) {
   SayHello(10);
