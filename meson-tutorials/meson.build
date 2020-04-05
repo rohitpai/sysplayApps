@@ -8,6 +8,7 @@ srcs = [
   'src/main.cpp',
 ]
 
+
 inc = include_directories([
   'include'])
 
