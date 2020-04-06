@@ -1,14 +1,11 @@
 [binaries]
-c = ['/opt/poky/2.7.3/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc', '-mfpu=neon', '-mfloat-abi=hard', '-mcpu=cortex-a8', '--sysroot=/opt/poky/2.7.3/sysroots/cortexa8hf-neon-poky-linux-gnueabi']
-cpp = ['/opt/poky/2.7.3/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++', '-mfpu=neon', '-mfloat-abi=hard', '-mcpu=cortex-a8', '--sysroot=/opt/poky/2.7.3/sysroots/cortexa8hf-neon-poky-linux-gnueabi']
-ar = ['/opt/poky/2.7.3/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ar']
-nm = ['/opt/poky/2.7.3/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-nm']
-ld = ['/opt/poky/2.7.3/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ld', '--sysroot=/opt/poky/2.7.3/sysroots/cortexa8hf-neon-poky-linux-gnueabi']
-strip = ['/opt/poky/2.7.3/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-strip']
+c = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc', '-mfpu=neon', '-mfloat-abi=hard', '-mcpu=cortex-a8', '--sysroot=/opt/sysplay/1.0/sysroots/cortexa8hf-neon-poky-linux-gnueabi']
+cpp = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++', '-mfpu=neon', '-mfloat-abi=hard', '-mcpu=cortex-a8', '--sysroot=/opt/sysplay/1.0/sysroots/cortexa8hf-neon-poky-linux-gnueabi']
+ar = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ar']
+nm = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-nm']
+ld = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ld', '--sysroot=/opt/sysplay/1.0/sysroots/cortexa8hf-neon-poky-linux-gnueabi']
+strip = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-strip']
 pkgconfig = 'pkg-config'
-
-
-PKG_CONFIG_PATH = "/opt/poky/2.7.3/sysroots/cortexa8hf-neon-poky-linux-gnueabi/usr/lib/pkgconfig"
 
 [properties]
 needs_exe_wrapper = true

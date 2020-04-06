@@ -13,9 +13,12 @@ inc = include_directories([
   'include'])
 
 hello_dep = dependency('hello-lib')
+systemd_dep = dependency('libsystemd')
 
 all_deps = [
-hello_dep ]
+  hello_dep, 
+  systemd_dep
+ ]
 
 #----------------------------------------
 
