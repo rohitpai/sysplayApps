@@ -1,9 +1,9 @@
 [binaries]
-c = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc', '-mfpu=neon', '-mfloat-abi=hard', '-mcpu=cortex-a8', '--sysroot=/opt/sysplay/1.0/sysroots/cortexa8hf-neon-poky-linux-gnueabi']
-cpp = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++', '-mfpu=neon', '-mfloat-abi=hard', '-mcpu=cortex-a8', '--sysroot=/opt/sysplay/1.0/sysroots/cortexa8hf-neon-poky-linux-gnueabi']
+c = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc', '-mfpu=neon', '-mfloat-abi=hard', '-mcpu=cortex-a8', '--sysroot=/opt/sysplay/1.0/sysroots/armv7at2hf-neon-poky-linux-gnueabi']
+cpp = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++', '-mfpu=neon', '-mfloat-abi=hard', '-mcpu=cortex-a8', '--sysroot=/opt/sysplay/1.0/sysroots/armv7at2hf-neon-poky-linux-gnueabi']
 ar = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ar']
 nm = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-nm']
-ld = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ld', '--sysroot=/opt/sysplay/1.0/sysroots/cortexa8hf-neon-poky-linux-gnueabi']
+ld = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ld', '--sysroot=/opt/sysplay/1.0/sysroots/armv7at2hf-neon-poky-linux-gnueabi']
 strip = ['/opt/sysplay/1.0/sysroots/x86_64-sysplaysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-strip']
 pkgconfig = 'pkg-config'
 
