@@ -28,7 +28,7 @@ static void pabort(const char *s)
 	perror(s);
 	abort();
 }
-// dev configration of spi
+// dev configration of spi of the device
 static const char *device = "/dev/spidev1.0";
 static uint8_t mode;
 static uint8_t bits = 8;
