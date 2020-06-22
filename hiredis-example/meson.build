@@ -1,4 +1,4 @@
-project('process2.application',
+project('hello-redis.application',
   'cpp',
   default_options : ['cpp_std=c++11','b_ndebug=true'],
   version : '0.1.0'
@@ -12,14 +12,12 @@ srcs = [
 inc = include_directories([
   'include'])
 
-thread_dep = dependency('threads')
+redis_dep = dependency('hiredis')
 systemd_dep = dependency('libsystemd')
-gpiod_dep = dependency('libgpiod')
 
 all_deps = [
-  thread_dep, 
-  systemd_dep,
-  gpiod_dep
+  redis_dep, 
+  systemd_dep
  ]
 
 #----------------------------------------

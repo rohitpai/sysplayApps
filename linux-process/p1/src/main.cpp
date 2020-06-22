@@ -27,8 +27,9 @@ int main(int argc, char **argv) {
   }
 
   while(1){
-    microseconds ms = duration_cast< microseconds >(
-                        system_clock::now().time_since_epoch());
+    microseconds ms;
+    //ms = duration_cast< microseconds >(
+    //      system_clock::now().time_since_epoch());
 
     printf("Running 1 and time is %lld\n", ms);
     //usleep(1);

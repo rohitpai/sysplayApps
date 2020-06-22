@@ -7,7 +7,7 @@ meson build --cross-file ../meson.cross
 sudo DESTDIR=/opt/sysplay/1.0/sysroots/armv7at2hf-neon-poky-linux-gnueabi/usr/lib/pkgconfig ninja install
 
 # Build out of the tree kernel modules
-1. Source the environment file for your SDK
+1. Source the environment file for your SDK (You need to be a root if your /opt directory has access issue)
 2. cd to <SDKInstallPath>/sysroots/<mach>/usr/src/kernel and run 'make modules_prepare'
 3. Now to compile the hello world or any other module.
 KERNEL_SRC=<SDKInstallPath>/sysroots/<mach>/usr/src/kernel make
