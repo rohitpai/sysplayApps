@@ -1,5 +1,5 @@
 	KERNEL_SRC:= /opt/sysplay/1.0/sysroots/armv7at2hf-neon-poky-linux-gnueabi/usr/src/kernel
-	obj-m += ofd.o work-queue.o
+	obj-m += kernel-threads.o work-queue.o mod-synch.o poll-wait.o
 	SRC := $(shell pwd)
 all:
 	$(MAKE) -C $(KERNEL_SRC) M=$(SRC)

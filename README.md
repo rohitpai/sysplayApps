@@ -1,7 +1,7 @@
 # sysplayApps
 
 # Generic cross build instructions
-[To build library]
+[To build library or application]
 export PKG_CONFIG_PATH=/opt/sysplay/1.0/sysroots/armv7at2hf-neon-poky-linux-gnueabi/usr/lib/pkgconfig
 meson build --cross-file ../meson.cross 
 sudo DESTDIR=/opt/sysplay/1.0/sysroots/armv7at2hf-neon-poky-linux-gnueabi/usr/lib/pkgconfig ninja install
